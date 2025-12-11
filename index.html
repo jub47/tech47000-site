@@ -1,70 +1,76 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Tech47000 - Votre technologie, notre expertise</title>
-
-    <!-- Script principal Google AdSense -->
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-XXXXXXXXXXXXXXXX"
-        crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tech47 - Solutions connectées</title>
 
     <style>
-        html, body {
-            height: 100%;
+        body {
             margin: 0;
             padding: 0;
-        }
-
-        body {
-            background: #0d0d0d;
+            font-family: 'Segoe UI', Roboto, sans-serif;
+            background: linear-gradient(135deg, #0a0a14, #11182a 40%, #1b2340);
             color: white;
-            font-family: Arial, sans-serif;
         }
 
         header {
-            padding: 30px;
-            text-align: center;
-            font-size: 28px;
-            font-weight: bold;
-            background: linear-gradient(90deg, #00e5ff, #0066ff);
+            background: rgba(255, 255, 255, 0.05);
+            backdrop-filter: blur(10px);
+            padding: 25px 40px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 1px solid rgba(255,255,255,0.1);
+        }
+
+        .logo {
+            font-size: 32px;
+            font-weight: 700;
+            letter-spacing: 2px;
+            background: linear-gradient(90deg, #6ab0ff, #9b57ff);
             -webkit-background-clip: text;
             color: transparent;
         }
 
         .hero {
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            min-height: 80vh;
-            padding: 40px 20px;
             text-align: center;
+            padding: 120px 40px;
         }
 
         .hero h1 {
-            font-size: 40px;
-            margin-bottom: 10px;
-            background: linear-gradient(90deg, #00e5ff, #0066ff);
+            font-size: 50px;
+            font-weight: 800;
+            background: linear-gradient(90deg, #6ab0ff, #9b57ff);
             -webkit-background-clip: text;
             color: transparent;
         }
 
         .hero p {
             font-size: 20px;
-            color: #cccccc;
+            margin-top: 15px;
+            opacity: 0.9;
         }
 
-        .ads-footer {
-            text-align: center;
-            margin: 40px 0;
+        .cta {
+            margin-top: 40px;
+            display: inline-block;
+            padding: 14px 32px;
+            border-radius: 12px;
+            background: linear-gradient(90deg, #6ab0ff, #9b57ff);
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+            font-weight: 600;
+            box-shadow: 0 0 15px rgba(100,130,255,0.4);
         }
 
         footer {
             text-align: center;
-            padding: 20px;
+            padding: 40px 0;
+            margin-top: 80px;
+            opacity: 0.6;
             font-size: 14px;
-            color: #666;
         }
     </style>
 </head>
@@ -72,40 +78,17 @@
 <body>
 
 <header>
-    TECH47000
+    <div class="logo">Tech47</div>
 </header>
 
 <section class="hero">
-    <h1>Innovation. Fiabilité. Performance.</h1>
-    <p>Solutions technologiques modernes, optimisées pour votre confort et votre réussite.</p>
-
-    <!-- Premier bloc pub AdSense -->
-    <ins class="adsbygoogle"
-         style="display:block"
-         data-ad-client="ca-pub-XXXXXXXXXXXXXXXX"
-         data-ad-slot="0000000000"
-         data-ad-format="auto"
-         data-full-width-responsive="true"></ins>
-    <script>
-         (adsbygoogle = window.adsbygoogle || []).push({});
-    </script>
-</section>
-
-<!-- Deuxième bloc pub AdSense -->
-<section class="ads-footer">
-    <ins class="adsbygoogle"
-         style="display:block"
-         data-ad-client="ca-pub-8524673998493594"
-         data-ad-slot="1111111111"
-         data-ad-format="auto"
-         data-full-width-responsive="true"></ins>
-    <script>
-         (adsbygoogle = window.adsbygoogle || []).push({});
-    </script>
+    <h1>La puissance connectée au cœur d’un confort nouvelle génération</h1>
+    <p>Solutions domotiques, réseaux, LED intelligentes et optimisation technologique pour maisons et entreprises.</p>
+    <a href="#" class="cta">Découvrir nos services</a>
 </section>
 
 <footer>
-    © 2025 – Tech47000. Tous droits réservés.
+    © 2025 - Tech47. Tous droits réservés.
 </footer>
 
 </body>
