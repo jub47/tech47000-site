@@ -1,0 +1,17 @@
+body {
+    font-family: 'Segoe UI', Roboto, sans-serif;
+    background: linear-gradient(135deg, #0a0a14, #11182a);
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+header, main {
+    padding: 20px;
+}
+a {
+    color: #6ab0ff;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
